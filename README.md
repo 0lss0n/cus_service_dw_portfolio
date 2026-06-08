@@ -8,14 +8,14 @@ I det här projektet använder jag dummy-data och återskapar ett datalager frå
 Jag har utvecklat detta datalager med hjälp av SQL Server för att konsolidera kundtjänstdata för att kunna möjliggöra bättre rapportering och stötta beslutsfattande.
 
 ## Specifikationer.
-**Data källor**: Datakällan är från ett CRM och ett ERP system, som här i projektet representeras av dummy-data från  CSV-filer.
-**Data Kvalitet**: Tvätta och städa data före analys.
-**Integration**: Kombinera båda källorna till en mer användarvänlig datamodell utformad för Power BI.
-**Omfattning & Dokumentation**: Tillhandahåll tydlig dokumentation av datamodellen främst för att stödja andra analysteam, samt att öka förståelsen hos icketekniska användare.
+-**Data källor**: Datakällan är från ett CRM och ett ERP system, som här i projektet representeras av dummy-data från  CSV-filer.
+-**Data Kvalitet**: Tvätta och städa data före analys.
+-**Integration**: Kombinera båda källorna till en mer användarvänlig datamodell utformad för Power BI.
+-**Omfattning & Dokumentation**: Tillhandahåll tydlig dokumentation av datamodellen främst för att stödja andra analysteam, samt att öka förståelsen hos icketekniska användare.
 
 ---
 
 Datalagret och analysen är gjord för att ge detaljerade insikter i:
-**Kundser....**
-**...
-**...
+-**Kundser....**
+-**...
+-**...
