@@ -10,8 +10,6 @@ Den utför följande åtgärder:
 
 */
 
-EXEC brons.load_brons
-
 CREATE OR ALTER  PROCEDURE brons.load_brons AS
 BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME; 
