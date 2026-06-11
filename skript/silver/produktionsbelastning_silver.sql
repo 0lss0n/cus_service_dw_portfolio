@@ -1,5 +1,5 @@
 /*
-Stored Procedures: Ladda silverlager (brons -> silver)
+Stored Procedures: Ladda silverlager från bronslager till silverlager
 
 Syfte:
 Denna Stored Procedures utför ETL-processen för att fylla i 'silver' schematabellerna från 'brons'-schemat.
