@@ -2,7 +2,7 @@
 Stored Procedures: Ladda silverlager från bronslager till silverlager
 
 Syfte:
-Denna Stored Procedures utför ETL-processen för att fylla i 'silver' schematabellerna från 'brons'-schemat.
+Denna Stored Procedure utför ETL-processen för att fylla i 'silver' schematabellerna från 'brons'-schemat.
 Utförda åtgärder:
 - Trunkerar silver-tabeller.
 - Infogar transformerade och rensade data från brons till silver tabeller.
