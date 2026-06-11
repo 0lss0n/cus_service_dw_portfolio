@@ -6,6 +6,7 @@ Detta skript skapar Views för det sista lagret i datalagret.
 Guld lagret representerar de slutliga dimensionerna och faktatabellerna. Varje vy använder data från silverlagret för att skapa en ren,
 berikad och affärsklar datauppsättning.
 Man kan ställa frågor till dessa vyer direkt för analys och rapportering.
+
 */
 
 -- Skapa dimension: guld.dim_checkpoint_destination
