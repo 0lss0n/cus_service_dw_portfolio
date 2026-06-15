@@ -1,0 +1,33 @@
+## **Innehåll**
+
+- I detta dokument förtydligar jag bara de namn konvetioner som används på scheman,
+tabeller, kolumner, views och andra objekt i datalagret och rapporten.
+
+-**Namn konventioner**: jag använder snake_case, alltså med små bokstäver och
+understreck för att separera ord.
+
+**Namn konvetioner för tabeller**
+
+**Bronslagret & Silverlagret**:
+-Alla namn måste starta med källsystemets namn och tabellernas namn måste matcha deras orginalnamn
+utan förändring.
+T.ex. namn från källsystemet, 'crm'.
+Exakt tabellnamn från källsystemet, 'cust_info'.
+'crm.cust_info' -> kundinformation från CRM systemet.
+
+**Guldlagret**
+-Alla namn måste använda meningsfulla, affärsanpassade namn för tabeller samt börja med ett prefix
+som antyder hur det ska användas i rapportlagret.
+T.ex. beskriva vilken roll tabellen har, som 'dim' för dimension eller 'fact' för faktatabell.
+Beskrivande namn på tabellen, anpassat till affärsdomänen som customer_service_issues.
+'fact_customer_service_issues' -> faktatabell med kundservicefrågor.
+
+**Tekniska kolumner**
+- Alla tekniska kolumner måste börja med prefixet 'dwh', följt av ett namn som beskriver
+kolumnens syfte.
+T.ex. Prefixet används för metadata samt ett namn som beskriver kolumnens syfte.
+'dwh_create_date' -> kolumn som används för att lagra datumet då frågan laddades.
+
+**Stored Procedure**
+-Alla stored procedures ska använda namngivningsmönstret 'load_(lager)'.
+T.ex. 'load_brons' -> Stored Procedure för att ladda data till brons lagret.
