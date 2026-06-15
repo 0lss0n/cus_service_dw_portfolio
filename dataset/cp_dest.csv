@@ -1,0 +1,300 @@
+shipment_id;customer_id;origin;destination;country;item_id;delivery_status;delivery_date
+SHP321500;1002458;Stockholm;New York;USA;TDX;d;2025-06-01
+SHP321501;1002459;Stockholm;Leipzig;Tyskland;ECX;d;2025-06-01
+SHP321502;1002460;Stockholm;Frankfurt;Tyskland;EDI;d;2025-06-01
+SHP321503;1002461;Stockholm;Amsterdam;Holland;CredCes;d;2025-06-01
+SHP321504;1002474;Stockholm;Istanbul;Turkiet;DDI;d;2025-06-01
+SHP321505;1002488;Stockholm;Denver;USA;CredCes;d;2025-06-02
+SHP321506;1002466;Stockholm;Rotterdam;Holland;CredCes;d;2025-06-02
+SHP321507;1002465;Stockholm;Antwerpen;Belgien;EDI;d;2025-06-02
+SHP321508;1002483;Stockholm; Göteborg ;Sverige;DDI;d;2025-06-02
+SHP321509;1002474;Stockholm;Köpenhamn;Danmark;CredCes;d;2025-06-02
+SHP321510;1002465;Stockholm;Helsingfors;Finland;CredCes;d;2025-06-02
+SHP321511;1002468;Stockholm; Los Angeles ;USA;EDI;d;2025-06-02
+SHP321512;1002472;Stockholm; Hongkong ;Kina;ECX;d;2025-06-02
+SHP321513;1002470;Stockholm;Shanghai;Kina;DDI;d;2025-06-02
+SHP321514;1002487;Stockholm;Antwerpen;Belgien;TDX;d;2025-06-02
+SHP321515;1002467;Stockholm;Helsingfors;Finland;ECX;d;2025-06-02
+SHP321516;1002461;Stockholm; Göteborg ;Sverige;ECX;d;2025-06-02
+SHP321517;1002473;Stockholm;Shanghai;Kina;ECX;d;2025-06-02
+SHP321518;1002477;Stockholm;New York;USA;ECX;d;2025-06-02
+SHP321519;1002458;Stockholm; Los Angeles ;USA;CredCes;d;2025-06-02
+SHP321520;1002488;Stockholm; Göteborg ;Sverige;TDX;d;2025-06-02
+SHP321521;1002473;Stockholm;Denver;USA;ECX;d;2025-06-02
+SHP321522;1002481;Stockholm;Köpenhamn;Danmark;DDI;d;2025-06-02
+SHP321523;1002488;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-02
+SHP321524;1002479;Stockholm;Shanghai;Kina;TDX;d;2025-06-03
+SHP321525;1002482;Stockholm;New York;USA;CredCes;d;2025-06-03
+SHP321526;1002482;Stockholm;Shanghai;Kina;CredCes;d;2025-06-03
+SHP321527;1002486;Stockholm;Amsterdam;Holland;CredCes;d;2025-06-03
+SHP321528;1002468;Stockholm;Helsingfors;Finland;TDX;d;2025-06-03
+SHP321529;1002482;Stockholm;Köpenhamn;Danmark;CredCes;d;2025-06-03
+SHP321530;1002471;Stockholm;Denver;USA;TDX;d;2025-06-03
+SHP321531;1002458;Stockholm; Los Angeles ;USA;EDI;d;2025-06-03
+SHP321532;1002479;Stockholm; Göteborg ;Sverige;DDI;d;2025-06-03
+SHP321533;1002477;Stockholm;Amsterdam;Holland;TDX;d;2025-06-03
+SHP321534;1002461;Stockholm;Helsingfors;Finland;TDX;d;2025-06-03
+SHP321535;1002486;Stockholm; Los Angeles ;USA;CredCes;d;2025-06-04
+SHP321536;1002463;Stockholm;Frankfurt;Tyskland;EDI;d;2025-06-04
+SHP321537;1002465;Stockholm;Denver;USA;ECX;d;2025-06-04
+SHP321538;1002467;Stockholm; Los Angeles ;USA;CredCes;d;2025-06-04
+SHP321539;1002462;Stockholm;Istanbul;Turkiet;ECX;d;2025-06-04
+SHP321540;1002487;Stockholm;New York;USA;ECX;d;2025-06-04
+SHP321541;1002470;Stockholm;Rotterdam;Holland;CredCes;d;2025-06-04
+SHP321542;1002463;Stockholm;Antwerpen;Belgien;CredCes;d;2025-06-04
+SHP321543;1002481;Stockholm; Hongkong ;Kina;TDX;d;2025-06-05
+SHP321544;1002459;Stockholm; Los Angeles ;USA;TDX;d;2025-06-05
+SHP321545;1002463;Stockholm;Istanbul;Turkiet;TDX;d;2025-06-05
+SHP321546;1002467;Stockholm;Helsingfors;Finland;CredCes;d;2025-06-05
+SHP321547;1002488;Stockholm;New York;USA;EDI;d;2025-06-05
+SHP321548;1002487;Stockholm; Hongkong ;Kina;TDX;d;2025-06-06
+SHP321549;1002488;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-06
+SHP321550;1002474;Stockholm;Antwerpen;Belgien;ECX;d;2025-06-06
+SHP321551;1002479;Stockholm;Helsingfors;Finland;EDI;d;2025-06-06
+SHP321552;1002464;Stockholm;Amsterdam;Holland;ECX;d;2025-06-06
+SHP321553;1002483;Stockholm; Los Angeles ;USA;ECX;d;2025-06-06
+SHP321554;1002467;Stockholm;Rotterdam;Holland;CredCes;d;2025-06-07
+SHP321555;1002477;Stockholm; Hongkong ;Kina;TDX;d;2025-06-07
+SHP321556;1002480;Stockholm;Shanghai;Kina;TDX;d;2025-06-07
+SHP321557;1002474;Stockholm;Antwerpen;Belgien;CredCes;d;2025-06-07
+SHP321558;1002465;Stockholm;Amsterdam;Holland;TDX;d;2025-06-07
+SHP321559;1002472;Stockholm;Helsingfors;Finland;ECX;d;2025-06-08
+SHP321560;1002463;Stockholm;Amsterdam;Holland;ECX;d;2025-06-08
+SHP321561;1002481;Stockholm;Helsingfors;Finland;DDI;d;2025-06-08
+SHP321562;1002464;Stockholm;Frankfurt;Tyskland;TDX;d;2025-06-08
+SHP321563;1002469;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-08
+SHP321564;1002461;Stockholm;Rotterdam;Holland;CredCes;d;2025-06-08
+SHP321565;1002461;Stockholm;Istanbul;Turkiet;DDI;d;2025-06-08
+SHP321566;1002486;Stockholm;New York;USA;TDX;d;2025-06-08
+SHP321567;1002487;Stockholm;Denver;USA;ECX;d;2025-06-08
+SHP321568;1002481;Stockholm;Shanghai;Kina;CredCes;d;2025-06-08
+SHP321569;1002489;Stockholm;Amsterdam;Holland;ECX;d;2025-06-08
+SHP321570;1002469;Stockholm;Frankfurt;Tyskland;ECX;d;2025-06-09
+SHP321571;1002474;Stockholm;Shanghai;Kina;ECX;d;2025-06-09
+SHP321572;1002470;Stockholm;Shanghai;Kina;ECX;d;2025-06-09
+SHP321573;1002476;Stockholm;Istanbul;Turkiet;EDI;d;2025-06-09
+SHP321574;1002469;Stockholm; Hongkong ;Kina;DDI;d;2025-06-09
+SHP321575;1002468;Stockholm;New York;USA;CredCes;d;2025-06-09
+SHP321576;1002488;Stockholm; Hongkong ;Kina;DDI;d;2025-06-09
+SHP321577;1002463;Stockholm;Antwerpen;Belgien;DDI;d;2025-06-09
+SHP321578;1002476;Stockholm;Helsingfors;Finland;DDI;d;2025-06-09
+SHP321579;1002486;Stockholm; Göteborg ;Sverige;EDI;d;2025-06-10
+SHP321580;1002459;Stockholm; Göteborg ;Sverige;DDI;d;2025-06-10
+SHP321581;1002480;Stockholm;Denver;USA;CredCes;d;2025-06-10
+SHP321582;1002461;Stockholm;New York;USA;DDI;d;2025-06-10
+SHP321583;1002486;Stockholm;New York;USA;CredCes;d;2025-06-10
+SHP321584;1002469;Stockholm; Göteborg ;Sverige;DDI;d;2025-06-10
+SHP321585;1002486;Stockholm;New York;USA;CredCes;d;2025-06-10
+SHP321586;1002481;Stockholm;Antwerpen;Belgien;ECX;d;2025-06-10
+SHP321587;1002472;Stockholm; Göteborg ;Sverige;ECX;d;2025-06-10
+SHP321588;1002488;Stockholm; Hongkong ;Kina;TDX;d;2025-06-10
+SHP321589;1002472;Stockholm;Denver;USA;DDI;d;2025-06-10
+SHP321590;1002487;Stockholm; Los Angeles ;USA;TDX;d;2025-06-11
+SHP321591;1002476;Stockholm; Göteborg ;Sverige;EDI;d;2025-06-11
+SHP321592;1002476;Stockholm;New York;USA;EDI;d;2025-06-11
+SHP321593;1002470;Stockholm;Frankfurt;Tyskland;CredCes;d;2025-06-11
+SHP321594;1002481;Stockholm;Leipzig;Tyskland;EDI;d;2025-06-11
+SHP321595;1002468;Stockholm;Frankfurt;Tyskland;CredCes;d;2025-06-11
+SHP321596;1002485;Stockholm; Hongkong ;Kina;DDI;d;2025-06-11
+SHP321597;1002480;Stockholm;Frankfurt;Tyskland;EDI;d;2025-06-11
+SHP321598;1002484;Stockholm;Denver;USA;ECX;d;2025-06-11
+SHP321599;1002458;Stockholm; Göteborg ;Sverige;TDX;d;2025-06-12
+SHP321600;1002468;Stockholm;Köpenhamn;Danmark;CredCes;d;2025-06-12
+SHP321601;1002486;Stockholm; Los Angeles ;USA;DDI;d;2025-06-12
+SHP321602;1002481;Stockholm;Helsingfors;Finland;EDI;d;2025-06-12
+SHP321603;1002477;Stockholm;Köpenhamn;Danmark;ECX;d;2025-06-12
+SHP321604;1002466;Stockholm;Rotterdam;Holland;CredCes;d;2025-06-12
+SHP321605;1002474;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-12
+SHP321606;1002479;Stockholm;Leipzig;Tyskland;EDI;d;2025-06-13
+SHP321607;1002479;Stockholm;Leipzig;Tyskland;ECX;d;2025-06-13
+SHP321608;1002468;Stockholm; Los Angeles ;USA;DDI;d;2025-06-13
+SHP321609;1002487;Stockholm;Köpenhamn;Danmark;TDX;d;2025-06-13
+SHP321610;1002482;Stockholm;Köpenhamn;Danmark;CredCes;d;2025-06-13
+SHP321611;1002484;Stockholm; Hongkong ;Kina;TDX;d;2025-06-13
+SHP321612;1002470;Stockholm;New York;USA;EDI;d;2025-06-13
+SHP321613;1002458;Stockholm;Antwerpen;Belgien;ECX;d;2025-06-13
+SHP321614;1002480;Stockholm;Leipzig;Tyskland;CredCes;d;2025-06-13
+SHP321615;1002463;Stockholm;Denver;USA;ECX;d;2025-06-13
+SHP321616;1002472;Stockholm;Köpenhamn;Danmark;DDI;d;2025-06-13
+SHP321617;1002461;Stockholm;Helsingfors;Finland;EDI;d;2025-06-13
+SHP321618;1002471;Stockholm;Leipzig;Tyskland;EDI;d;2025-06-13
+SHP321619;1002466;Stockholm;Köpenhamn;Danmark;DDI;d;2025-06-13
+SHP321620;1002480;Stockholm;Helsingfors;Finland;ECX;d;2025-06-14
+SHP321621;1002458;Stockholm;Köpenhamn;Danmark;DDI;d;2025-06-14
+SHP321622;1002475;Stockholm;Frankfurt;Tyskland;TDX;d;2025-06-14
+SHP321623;1002486;Stockholm; Hongkong ;Kina;CredCes;d;2025-06-14
+SHP321624;1002488;Stockholm;Rotterdam;Holland;TDX;d;2025-06-14
+SHP321625;1002489;Stockholm;Frankfurt;Tyskland;ECX;d;2025-06-14
+SHP321626;1002458;Stockholm;Frankfurt;Tyskland;EDI;d;2025-06-14
+SHP321627;1002468;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-14
+SHP321628;1002478;Stockholm;Denver;USA;DDI;d;2025-06-14
+SHP321629;1002478;Stockholm; Hongkong ;Kina;ECX;d;2025-06-14
+SHP321630;1002462;Stockholm;Antwerpen;Belgien;ECX;d;2025-06-14
+SHP321631;1002476;Stockholm;New York;USA;CredCes;d;2025-06-14
+SHP321632;1002483;Stockholm;Köpenhamn;Danmark;DDI;d;2025-06-15
+SHP321633;1002458;Stockholm;Rotterdam;Holland;EDI;d;2025-06-15
+SHP321634;1002482;Stockholm;Frankfurt;Tyskland;EDI;d;2025-06-15
+SHP321635;1002459;Stockholm; Los Angeles ;USA;DDI;d;2025-06-15
+SHP321636;1002479;Stockholm;Rotterdam;Holland;CredCes;d;2025-06-15
+SHP321637;1002480;Stockholm;Rotterdam;Holland;EDI;d;2025-06-15
+SHP321638;1002486;Stockholm;Antwerpen;Belgien;CredCes;d;2025-06-15
+SHP321639;1002485;Stockholm;Antwerpen;Belgien;EDI;d;2025-06-16
+SHP321640;1002459;Stockholm; Los Angeles ;USA;TDX;d;2025-06-16
+SHP321641;1002478;Stockholm; Hongkong ;Kina;TDX;d;2025-06-16
+SHP321642;1002473;Stockholm;Frankfurt;Tyskland;CredCes;d;2025-06-16
+SHP321643;1002470;Stockholm;Shanghai;Kina;CredCes;d;2025-06-16
+SHP321644;1002473;Stockholm;Leipzig;Tyskland;ECX;d;2025-06-16
+SHP321645;1002478;Stockholm;Frankfurt;Tyskland;EDI;d;2025-06-16
+SHP321646;1002470;Stockholm;Amsterdam;Holland;ECX;d;2025-06-16
+SHP321647;1002472;Stockholm; Göteborg ;Sverige;ECX;d;2025-06-16
+SHP321648;1002488;Stockholm;Köpenhamn;Danmark;ECX;d;2025-06-16
+SHP321649;1002481;Stockholm;Rotterdam;Holland;ECX;d;2025-06-17
+SHP321650;1002487;Stockholm;Leipzig;Tyskland;TDX;d;2025-06-17
+SHP321651;1002465;Stockholm;Shanghai;Kina;CredCes;d;2025-06-17
+SHP321652;1002476;Stockholm; Hongkong ;Kina;CredCes;d;2025-06-17
+SHP321653;1002465;Stockholm;Amsterdam;Holland;ECX;d;2025-06-17
+SHP321654;1002463;Stockholm;Rotterdam;Holland;DDI;d;2025-06-17
+SHP321655;1002465;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-17
+SHP321656;1002483;Stockholm;Köpenhamn;Danmark;TDX;d;2025-06-18
+SHP321657;1002462;Stockholm; Göteborg ;Sverige;DDI;d;2025-06-18
+SHP321658;1002472;Stockholm;Frankfurt;Tyskland;CredCes;d;2025-06-18
+SHP321659;1002488;Stockholm;New York;USA;TDX;d;2025-06-18
+SHP321660;1002469;Stockholm;Frankfurt;Tyskland;EDI;d;2025-06-18
+SHP321661;1002488;Stockholm;Denver;USA;EDI;d;2025-06-18
+SHP321662;1002464;Stockholm;Rotterdam;Holland;EDI;d;2025-06-18
+SHP321663;1002476;Stockholm;Leipzig;Tyskland;ECX;d;2025-06-18
+SHP321664;1002482;Stockholm;Antwerpen;Belgien;EDI;d;2025-06-18
+SHP321665;1002469;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-18
+SHP321666;1002467;Stockholm;New York;USA;DDI;d;2025-06-18
+SHP321667;1002488;Stockholm;Leipzig;Tyskland;ECX;d;2025-06-18
+SHP321668;1002460;Stockholm; Göteborg ;Sverige;ECX;d;2025-06-19
+SHP321669;1002461;Stockholm;Shanghai;Kina;ECX;d;2025-06-19
+SHP321670;1002480;Stockholm;Denver;USA;ECX;d;2025-06-19
+SHP321671;1002461;Stockholm;Istanbul;Turkiet;TDX;d;2025-06-19
+SHP321672;1002482;Stockholm; Hongkong ;Kina;EDI;d;2025-06-19
+SHP321673;1002468;Stockholm;Helsingfors;Finland;CredCes;d;2025-06-19
+SHP321674;1002466;Stockholm; Hongkong ;Kina;ECX;d;2025-06-19
+SHP321675;1002487;Stockholm;Frankfurt;Tyskland;DDI;d;2025-06-19
+SHP321676;1002461;Stockholm;Denver;USA;CredCes;d;2025-06-19
+SHP321677;1002489;Stockholm;Shanghai;Kina;CredCes;d;2025-06-19
+SHP321678;1002466;Stockholm;Denver;USA;ECX;d;2025-06-19
+SHP321679;1002466;Stockholm;Denver;USA;EDI;d;2025-06-19
+SHP321680;1002479;Stockholm;Amsterdam;Holland;ECX;d;2025-06-19
+SHP321681;1002462;Stockholm; Göteborg ;Sverige;CredCes;d;2025-06-20
+SHP321682;1002464;Stockholm;Amsterdam;Holland;CredCes;d;2025-06-20
+SHP321683;1002487;Stockholm;Shanghai;Kina;TDX;d;2025-06-20
+SHP321684;1002471;Stockholm; Los Angeles ;USA;CredCes;d;2025-06-20
+SHP321685;1002472;Stockholm;Leipzig;Tyskland;EDI;d;2025-06-20
+SHP321686;1002476;Stockholm;Amsterdam;Holland;ECX;d;2025-06-20
+SHP321687;1002460;Stockholm; Hongkong ;Kina;DDI;d;2025-06-21
+SHP321688;1002471;Stockholm;Antwerpen;Belgien;TDX;d;2025-06-21
+SHP321689;1002483;Stockholm;Denver;USA;TDX;d;2025-06-21
+SHP321690;1002465;Stockholm;Helsingfors;Finland;ECX;d;2025-06-21
+SHP321691;1002482;Stockholm;Frankfurt;Tyskland;DDI;d;2025-06-21
+SHP321692;1002479;Stockholm;Istanbul;Turkiet;TDX;d;2025-06-21
+SHP321693;1002461;Stockholm;Shanghai;Kina;EDI;d;2025-06-21
+SHP321694;1002476;Stockholm;Denver;USA;EDI;d;2025-06-21
+SHP321695;1002489;Stockholm;Rotterdam;Holland;DDI;d;2025-06-21
+SHP321696;1002476;Stockholm; Göteborg ;Sverige;ECX;d;2025-06-21
+SHP321697;1002489;Stockholm;Helsingfors;Finland;ECX;d;2025-06-21
+SHP321698;1002459;Stockholm;Helsingfors;Finland;CredCes;d;2025-06-22
+SHP321699;1002473;Stockholm;Rotterdam;Holland;TDX;d;2025-06-22
+SHP321700;1002488;Stockholm; Hongkong ;Kina;TDX;d;2025-06-22
+SHP321701;1002472;Stockholm;Shanghai;Kina;DDI;d;2025-06-22
+SHP321702;1002476;Stockholm;Denver;USA;EDI;d;2025-06-22
+SHP321703;1002460;Stockholm; Hongkong ;Kina;DDI;d;2025-06-22
+SHP321704;1002479;Stockholm;Istanbul;Turkiet;TDX;d;2025-06-22
+SHP321705;1002481;Stockholm;Köpenhamn;Danmark;ECX;d;2025-06-22
+SHP321706;1002458;Stockholm;Istanbul;Turkiet;DDI;d;2025-06-22
+SHP321707;1002485;Stockholm; Hongkong ;Kina;DDI;d;2025-06-22
+SHP321708;1002487;Stockholm; Hongkong ;Kina;DDI;d;2025-06-22
+SHP321709;1002482;Stockholm;Denver;USA;ECX;d;2025-06-23
+SHP321710;1002470;Stockholm;Rotterdam;Holland;EDI;d;2025-06-23
+SHP321711;1002462;Stockholm;Rotterdam;Holland;ECX;d;2025-06-23
+SHP321712;1002458;Stockholm;Leipzig;Tyskland;EDI;d;2025-06-23
+SHP321713;1002481;Stockholm;Denver;USA;CredCes;d;2025-06-23
+SHP321714;1002465;Stockholm;Köpenhamn;Danmark;CredCes;d;2025-06-23
+SHP321715;1002476;Stockholm;Istanbul;Turkiet;ECX;d;2025-06-23
+SHP321716;1002458;Stockholm;Helsingfors;Finland;CredCes;d;2025-06-23
+SHP321717;1002489;Stockholm;Rotterdam;Holland;ECX;d;2025-06-23
+SHP321718;1002484;Stockholm;Shanghai;Kina;DDI;d;2025-06-23
+SHP321719;1002481;Stockholm;Antwerpen;Belgien;TDX;d;2025-06-23
+SHP321720;1002468;Stockholm; Los Angeles ;USA;EDI;d;2025-06-23
+SHP321721;1002465;Stockholm;Frankfurt;Tyskland;CredCes;d;2025-06-23
+SHP321722;1002488;Stockholm;Leipzig;Tyskland;CredCes;d;2025-06-23
+SHP321723;1002464;Stockholm;Leipzig;Tyskland;DDI;d;2025-06-24
+SHP321724;1002459;Stockholm;Amsterdam;Holland;EDI;d;2025-06-24
+SHP321725;1002464;Stockholm; Göteborg ;Sverige;ECX;d;2025-06-24
+SHP321726;1002466;Stockholm;Amsterdam;Holland;CredCes;d;2025-06-24
+SHP321727;1002464;Stockholm;Rotterdam;Holland;TDX;d;2025-06-24
+SHP321728;1002479;Stockholm;Denver;USA;CredCes;d;2025-06-24
+SHP321729;1002461;Stockholm; Göteborg ;Sverige;EDI;d;2025-06-24
+SHP321730;1002477;Stockholm;Helsingfors;Finland;DDI;d;2025-06-24
+SHP321731;1002470;Stockholm; Hongkong ;Kina;EDI;d;2025-06-25
+SHP321732;1002464;Stockholm;New York;USA;ECX;d;2025-06-25
+SHP321733;1002468;Stockholm;Amsterdam;Holland;TDX;d;2025-06-25
+SHP321734;1002483;Stockholm;Helsingfors;Finland;CredCes;d;2025-06-25
+SHP321735;1002477;Stockholm;Denver;USA;CredCes;d;2025-06-25
+SHP321736;1002480;Stockholm;Antwerpen;Belgien;ECX;d;2025-06-25
+SHP321737;1002460;Stockholm;Helsingfors;Finland;EDI;d;2025-06-25
+SHP321738;1002460;Stockholm; Los Angeles ;USA;CredCes;d;2025-06-25
+SHP321739;1002472;Stockholm; Hongkong ;Kina;TDX;d;2025-06-25
+SHP321740;1002465;Stockholm;Denver;USA;ECX;d;2025-06-25
+SHP321741;1002488;Stockholm; Göteborg ;Sverige;ECX;d;2025-06-25
+SHP321742;1002477;Stockholm;Shanghai;Kina;EDI;d;2025-06-25
+SHP321743;1002485;Stockholm;New York;USA;DDI;d;2025-06-25
+SHP321744;1002488;Stockholm;Helsingfors;Finland;TDX;d;2025-06-25
+SHP321745;1002460;Stockholm;Antwerpen;Belgien;DDI;d;2025-06-26
+SHP321746;1002475;Stockholm; Hongkong ;Kina;EDI;d;2025-06-26
+SHP321747;1002485;Stockholm;Köpenhamn;Danmark;DDI;d;2025-06-26
+SHP321748;1002475;Stockholm;Amsterdam;Holland;CredCes;d;2025-06-26
+SHP321749;1002486;Stockholm;Antwerpen;Belgien;CredCes;d;2025-06-26
+SHP321750;1002477;Stockholm;Antwerpen;Belgien;ECX;d;2025-06-26
+SHP321751;1002484;Stockholm;Shanghai;Kina;ECX;d;2025-06-26
+SHP321752;1002481;Stockholm; Hongkong ;Kina;DDI;d;2025-06-26
+SHP321753;1002484;Stockholm;Istanbul;Turkiet;ECX;d;2025-06-27
+SHP321754;1002482;Stockholm; Los Angeles ;USA;CredCes;d;2025-06-27
+SHP321755;1002488;Stockholm;Leipzig;Tyskland;TDX;d;2025-06-27
+SHP321756;1002483;Stockholm;Istanbul;Turkiet;EDI;d;2025-06-27
+SHP321757;1002467;Stockholm;Köpenhamn;Danmark;ECX;d;2025-06-27
+SHP321758;1002481;Stockholm; Los Angeles ;USA;EDI;d;2025-06-27
+SHP321759;1002477;Stockholm;Helsingfors;Finland;EDI;d;2025-06-27
+SHP321760;1002468;Stockholm;Helsingfors;Finland;CredCes;d;2025-06-27
+SHP321761;1002486;Stockholm; Hongkong ;Kina;EDI;d;2025-06-27
+SHP321762;1002462;Stockholm;Istanbul;Turkiet;EDI;d;2025-06-27
+SHP321763;1002477;Stockholm; Göteborg ;Sverige;TDX;d;2025-06-27
+SHP321764;1002472;Stockholm;Istanbul;Turkiet;TDX;d;2025-06-27
+SHP321765;1002474;Stockholm;New York;USA;DDI;d;2025-06-27
+SHP321766;1002483;Stockholm;Rotterdam;Holland;EDI;d;2025-06-28
+SHP321767;1002483;Stockholm;Denver;USA;DDI;d;2025-06-28
+SHP321768;1002461;Stockholm;Frankfurt;Tyskland;DDI;d;2025-06-28
+SHP321769;1002483;Stockholm;Istanbul;Turkiet;DDI;d;2025-06-28
+SHP321770;1002488;Stockholm;Denver;USA;CredCes;d;2025-06-28
+SHP321771;1002468;Stockholm;Denver;USA;CredCes;d;2025-06-28
+SHP321772;1002472;Stockholm;Leipzig;Tyskland;ECX;d;2025-06-28
+SHP321773;1002488;Stockholm;New York;USA;DDI;d;2025-06-28
+SHP321774;1002462;Stockholm;Frankfurt;Tyskland;TDX;d;2025-06-28
+SHP321775;1002483;Stockholm;Rotterdam;Holland;EDI;d;2025-06-28
+SHP321776;1002485;Stockholm;Rotterdam;Holland;ECX;d;2025-06-29
+SHP321777;1002468;Stockholm; Hongkong ;Kina;TDX;d;2025-06-29
+SHP321778;1002468;Stockholm;Amsterdam;Holland;TDX;d;2025-06-29
+SHP321779;1002482;Stockholm; Los Angeles ;USA;EDI;d;2025-06-29
+SHP321780;1002460;Stockholm;Rotterdam;Holland;CredCes;d;2025-06-29
+SHP321781;1002459;Stockholm; Hongkong ;Kina;ECX;d;2025-06-29
+SHP321782;1002463;Stockholm;Amsterdam;Holland;ECX;d;2025-06-30
+SHP321783;1002469;Stockholm; Göteborg ;Sverige;TDX;d;2025-06-30
+SHP321784;1002459;Stockholm; Los Angeles ;USA;EDI;d;2025-06-30
+SHP321785;1002462;Stockholm;Helsingfors;Finland;EDI;d;2025-06-30
+SHP321786;1002461;Stockholm;Shanghai;Kina;TDX;d;2025-06-30
+SHP321787;1002463;Stockholm;Denver;USA;CredCes;d;2025-06-30
+SHP321788;1002471;Stockholm;New York;USA;CredCes;d;2025-06-30
+SHP321789;1002486;Stockholm;Shanghai;Kina;ECX;d;2025-06-30
+SHP321790;1002489;Stockholm;Istanbul;Turkiet;DDI;d;2025-06-30
+SHP321791;1002485;Stockholm;Frankfurt;Tyskland;TDX;d;2025-06-30
+SHP321792;1002464;Stockholm;Antwerpen;Belgien;ECX;d;2025-06-30
+SHP321793;1002477;Stockholm;Antwerpen;Belgien;CredCes;d;2025-06-30
+SHP321794;1002458;Stockholm; Göteborg ;Sverige;EDI;d;2025-06-30
+SHP321795;1002464;Stockholm;Amsterdam;Holland;DDI;d;2025-06-30
+SHP321796;1002460;Stockholm; Los Angeles ;USA;ECX;d;2025-06-30
+SHP321797;1002477;Stockholm;Frankfurt;Tyskland;CredCes;d;2025-06-30
+SHP321798;1002473;Stockholm;Köpenhamn;Danmark;CredCes;d;2025-06-30
