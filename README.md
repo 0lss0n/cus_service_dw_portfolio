@@ -16,6 +16,7 @@ Jag har utvecklat detta datalager med hjälp av SQL Server för att konsolidera 
 ---
 
 Datalagret och analysen är gjord för att ge detaljerade insikter i:
-- **Kundser....**
-- **...
-- **...
+- **Ärende-volym**: Totalt antal inkommande ärenden per kategori för att se vad som belastar supporten mest.
+- **Lösningstid**: Tid från att ett ärende skapas till att status ändras till "stängt".
+- **Eftersläpning**: Andelen ärenden som fortfarande har status "öppet" baserat på historiska datum.
+- **Flaskhalsar**: Identifiering av vilka specifika kategorier, t.ex. tull eller faktura som blir liggande öppna längst.
