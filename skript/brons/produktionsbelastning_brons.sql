@@ -55,11 +55,11 @@ BEGIN
 		PRINT '>> -------------';
 
 	SET @start_time = GETDATE();
-		PRINT '>> Trunkering av tabell: brons.crm_cust_info';
-	TRUNCATE TABLE brons.crm_cust_info;
-	PRINT '>> Infoga data i: brons.crm_cust_info';
-	BULK INSERT brons.crm_cust_info
-	FROM 'C:\sql\crm\cust_info.csv'
+		PRINT '>> Trunkering av tabell: brons.crm_con_per';
+	TRUNCATE TABLE brons.crm_con_per;
+	PRINT '>> Infoga data i: brons.crm_con_per';
+	BULK INSERT brons.crm_con_per
+	FROM 'C:\sql\crm\con_per.csv'
 	WITH(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ';',
@@ -79,6 +79,38 @@ BEGIN
 	PRINT '>> Infoga data i: brons.erp_cp_dest';
 	BULK INSERT brons.erp_cp_dest
 	FROM 'C:\sql\erp\cp_dest.csv'
+	WITH(
+		FIRSTROW = 2,
+		FIELDTERMINATOR = ';',
+		TABLOCK
+	);
+	SET @end_time = GETDATE();
+		PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
+		PRINT '>> -------------';
+
+		SET @start_time = GETDATE();
+		PRINT '>> Trunkering av tabell: brons.erp_cust_info';
+	TRUNCATE TABLE brons.erp_cust_info;
+
+	PRINT '>> Infoga data i: brons.erp_cust_info';
+	BULK INSERT brons.erp_cust_info
+	FROM 'C:\sql\crm\cust_info.csv'
+	WITH(
+		FIRSTROW = 2,
+		FIELDTERMINATOR = ';',
+		TABLOCK
+	);
+	SET @end_time = GETDATE();
+		PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(second, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
+		PRINT '>> -------------';
+
+				SET @start_time = GETDATE();
+		PRINT '>> Trunkering av tabell: brons.erp_ship_id';
+	TRUNCATE TABLE brons.erp_ship_id;
+
+	PRINT '>> Infoga data i: brons.erp_ship_id';
+	BULK INSERT brons.erp_ship_id
+	FROM 'C:\sql\crm\ship_id.csv'
 	WITH(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ';',
