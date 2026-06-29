@@ -85,7 +85,7 @@ CREATE TABLE brons.erp_ship_id(
 	country NVARCHAR(50),
 	d_status NVARCHAR(50),
 	d_date DATE,
-	weight INT,
-	volume INT
+	weight DECIMAL(6,3),
+	volume DECIMAL(6,3)
 );
 GO
