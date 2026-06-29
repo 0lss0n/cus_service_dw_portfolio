@@ -1,0 +1,76 @@
+ship_id;cust_id;prod_id;origin;destination;country;d_status;d_date;weight;volume
+SHP321599;1002465;CredCes;Stockholm;Göteborg;Sverige;Delivered;2025-06-12;280;1
+SHP321641;1002481;DDI;Stockholm;Hongkong;Kina;Delivered;2025-06-16;28;0.1
+SHP321745;1002466;CredCes;Stockholm;Antwerpen;Belgien;Delivered;2025-06-26;2.8;0.01
+SHP321651;1002469;DDI;Stockholm;Shanghai;Kina;Delivered;2025-06-17;0.1;0.01
+SHP321517;1002473;CredCes;Stockholm;Shanghai;Kina;Delivered;2025-06-02;150.8;0.54
+SHP321746;1002477;ECX;Stockholm;Hongkong;Kina;Delivered;2025-06-26;0.7;0.01
+SHP321749;1002484;TDX;Stockholm;Antwerpen;Belgien;Delivered;2025-06-26;275.2;0.98
+SHP321740;1002489;DDI;Stockholm;Denver;USA;Delivered;2025-06-25;16.5;0.06
+SHP321759;1002470;EDI;Stockholm;Helsingfors;Finland;Delivered;2025-06-27;0.7;0.01
+SHP321579;1002476;DDI;Stockholm;Göteborg;Sverige;Delivered;2025-06-10;0.7;0.01
+SHP321639;1002472;DDI;Stockholm;Antwerpen;Belgien;Delivered;2025-06-16;8.8;0.03
+SHP321605;1002477;CredCes;Stockholm;Göteborg;Sverige;Delivered;2025-06-12;0.7;0.01
+SHP321542;1002478;TDX;Stockholm;Antwerpen;Belgien;Delivered;2025-06-04;15.4;0.06
+SHP321648;1002475;CredCes;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-16;0.3;0.01
+SHP321502;1002485;EDI;Stockholm;Frankfurt;Tyskland;Delivered;2025-06-01;58.9;0.21
+SHP321728;1002482;DDI;Stockholm;Denver;USA;Delivered;2025-06-24;248.6;0.89
+SHP321588;1002472;TDX;Stockholm;Hongkong;Kina;Delivered;2025-06-10;0.6;0.01
+SHP321714;1002458;EDI;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-23;0.8;0.01
+SHP321611;1002474;DDI;Stockholm;Hongkong;Kina;Delivered;2025-06-13;212.4;0.76
+SHP321548;1002479;DDI;Stockholm;Hongkong;Kina;Delivered;2025-06-06;0.2;0.01
+SHP321707;1002470;CredCes;Stockholm;Hongkong;Kina;Delivered;2025-06-22;143.7;0.51
+SHP321681;1002488;EDI;Stockholm;Göteborg;Sverige;Delivered;2025-06-20;0.7;0.01
+SHP321530;1002466;CredCes;Stockholm;Denver;USA;Delivered;2025-06-03;0.7;0.01
+SHP321708;1002475;EDI;Stockholm;Hongkong;Kina;Delivered;2025-06-22;108.6;0.39
+SHP321679;1002482;EDI;Stockholm;Denver;USA;Delivered;2025-06-19;133.3;0.48
+SHP321676;1002460;CredCes;Stockholm;Denver;USA;Delivered;2025-06-19;214.1;0.76
+SHP321655;1002474;CredCes;Stockholm;Göteborg;Sverige;Delivered;2025-06-17;190.6;0.68
+SHP321748;1002460;TDX;Stockholm;Amsterdam;Holland;Delivered;2025-06-26;35.9;0.13
+SHP321647;1002482;CredCes;Stockholm;Göteborg;Sverige;Delivered;2025-06-16;56.7;0.2
+SHP321665;1002459;EDI;Stockholm;Göteborg;Sverige;Delivered;2025-06-18;205.3;0.73
+SHP321509;1002483;DDI;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-02;0.3;0.01
+SHP321652;1002478;EDI;Stockholm;Hongkong;Kina;Delivered;2025-06-17;209;0.75
+SHP321578;1002478;TDX;Stockholm;Helsingfors;Finland;Delivered;2025-06-09;202.6;0.72
+SHP321626;1002466;ECX;Stockholm;Frankfurt;Tyskland;Delivered;2025-06-14;276.1;0.99
+SHP321734;1002469;TDX;Stockholm;Helsingfors;Finland;Delivered;2025-06-25;163.7;0.58
+SHP321607;1002478;DDI;Stockholm;Leipzig;Tyskland;Delivered;2025-06-13;34.7;0.12
+SHP321767;1002460;CredCes;Stockholm;Denver;USA;Delivered;2025-06-28;224.1;0.8
+SHP321653;1002475;ECX;Stockholm;Amsterdam;Holland;Delivered;2025-06-17;0.4;0.01
+SHP321511;1002487;CredCes;Stockholm;Los Angelse;USA;Delivered;2025-06-02;159.2;0.57
+SHP321697;1002465;CredCes;Stockholm;Helsingfors;Finland;Delivered;2025-06-21;122.2;0.44
+SHP321576;1002458;ECX;Stockholm;Hongkong;Kina;Delivered;2025-06-09;250.9;0.9
+SHP321535;1002470;CredCes;Stockholm;Los Angelse;USA;Delivered;2025-06-04;0.2;0.01
+SHP321705;1002473;TDX;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-22;12.2;0.04
+SHP321515;1002483;EDI;Stockholm;Helsingfors;Finland;Delivered;2025-06-02;0.3;0.01
+SHP321619;1002468;ECX;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-13;49.7;0.18
+SHP321628;1002483;TDX;Stockholm;Denver;USA;Delivered;2025-06-14;244.3;0.87
+SHP321593;1002476;ECX;Stockholm;Frankfurt;Tyskland;Delivered;2025-06-11;154.9;0.55
+SHP321702;1002472;TDX;Stockholm;Denver;USA;Delivered;2025-06-22;0.9;0.01
+SHP321587;1002477;DDI;Stockholm;Göteborg;Sverige;Delivered;2025-06-10;248.5;0.89
+SHP321668;1002458;ECX;Stockholm;Göteborg;Sverige;Delivered;2025-06-19;239.3;0.85
+SHP321591;1002458;TDX;Stockholm;Göteborg;Sverige;Delivered;2025-06-11;77.4;0.28
+SHP321634;1002477;DDI;Stockholm;Frankfurt;Tyskland;Delivered;2025-06-15;4.6;0.02
+SHP321637;1002483;EDI;Stockholm;Rotterdam;Holland;Delivered;2025-06-15;180.2;0.64
+SHP321674;1002484;CredCes;Stockholm;Hongkong;Kina;Delivered;2025-06-19;0.8;0.01
+SHP321660;1002459;ECX;Stockholm;Frankfurt;Tyskland;Delivered;2025-06-18;0.5;0.01
+SHP321526;1002463;EDI;Stockholm;Shanghai;Kina;Delivered;2025-06-03;149.2;0.53
+SHP321610;1002463;DDI;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-13;145;0.52
+SHP321673;1002472;DDI;Stockholm;Helsingfors;Finland;Delivered;2025-06-19;35.7;0.13
+SHP321585;1002471;CredCes;Stockholm;New York;USA;Delivered;2025-06-10;86.4;0.31
+SHP321608;1002486;CredCes;Stockholm;Los Angelse;USA;Delivered;2025-06-13;0.4;0.01
+SHP321616;1002475;TDX;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-13;0.1;0.01
+SHP321663;1002476;DDI;Stockholm;Leipzig;Tyskland;Delivered;2025-06-18;137.6;0.49
+SHP321724;1002462;DDI;Stockholm;Amsterdam;Holland;Delivered;2025-06-24;21.2;0.08
+SHP321694;1002461;TDX;Stockholm;Denver;USA;Delivered;2025-06-21;0.5;0.01
+SHP321731;1002482;ECX;Stockholm;Hongkong;Kina;Delivered;2025-06-25;165.7;0.59
+SHP321720;1002477;ECX;Stockholm;Los Angelse;USA;Delivered;2025-06-23;94.1;0.34
+SHP321575;1002459;CredCes;Stockholm;New York;USA;Delivered;2025-06-09;0.2;0.01
+SHP321563;1002478;TDX;Stockholm;Göteborg;Sverige;Delivered;2025-06-08;221.8;0.79
+SHP321504;1002468;EDI;Stockholm;Istanbul;Turkiet;Delivered;2025-06-01;87;0.31
+SHP321721;1002489;CredCes;Stockholm;Frankfurt;Tyskland;Delivered;2025-06-23;0.9;0.01
+SHP321672;1002472;TDX;Stockholm;Hongkong;Kina;Delivered;2025-06-19;266.6;0.95
+SHP321600;1002471;CredCes;Stockholm;Köpenhamn;Danmark;Delivered;2025-06-12;99;0.35
+SHP321650;1002476;DDI;Stockholm;Leipzig;Tyskland;Delivered;2025-06-17;0.6;0.01
+SHP321558;1002472;TDX;Stockholm;Amsterdam;Holland;Delivered;2025-06-07;50.3;0.18
+SHP321693;1002463;EDI;Stockholm;Shanghai;Kina;Delivered;2025-06-21;57.3;0.2
