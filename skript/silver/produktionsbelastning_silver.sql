@@ -34,9 +34,9 @@ BEGIN
 		origin,
 		destination,
 		country,
-		item_id,
-		deli_sta,
-		delivery_date
+		prod_id,
+		d_status,
+		d_date
 		)
 	SELECT
 		ship_id,
@@ -44,12 +44,77 @@ BEGIN
 		origin,
 		TRIM(destination) AS destination,
 		country,
-		item_id,
-		CASE WHEN UPPER(TRIM(deli_sta)) = 'd' THEN 'Delivered'
+		prod_id,
+		CASE WHEN UPPER(TRIM(d_status)) = 'd' THEN 'Delivered'
 			 ELSE 'n/a'
-		END deli_sta,
-		delivery_date
+		END d_status,
+		d_date
 		FROM brons.erp_cp_dest
+	SET @end_time = GETDATE();
+        PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
+        PRINT '>> -------------';
+
+		-- Laddar silver.erp_cust_info
+    SET @start_time = GETDATE();
+		PRINT '>> Trunkering av tabell: silver.erp_cust_info';
+		TRUNCATE TABLE silver.erp_cust_info;
+		PRINT '>> Infoga data i: silver.erp_cust_info';
+
+	INSERT INTO silver.erp_cust_info(
+		cust_id,
+		comp_nm,
+		country,
+		segment,
+		sector,
+		status,
+		cre_dt
+		)
+	SELECT
+		cust_id,
+		comp_nm,
+		country,
+		segment,
+		sector,
+		status,
+		cre_dt
+		d_date
+		FROM brons.erp_cust_info
+	SET @end_time = GETDATE();
+        PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
+        PRINT '>> -------------';
+
+		-- Laddar silver.erp_ship_id
+    SET @start_time = GETDATE();
+		PRINT '>> Trunkering av tabell: silver.erp_ship_id';
+		TRUNCATE TABLE silver.erp_ship_id;
+		PRINT '>> Infoga data i: silver.erp_ship_id';
+
+	INSERT INTO silver.erp_ship_id(
+		ship_id,
+		case_id,
+		cust_id,
+		prod_id,
+		origin,
+		destination,
+		country,
+		d_status,
+		d_date,
+		weight,
+		volume
+		)
+	SELECT
+		ship_id,
+		case_id,
+		cust_id,
+		prod_id,
+		origin,
+		destination,
+		country,
+		d_status,
+		d_date,
+		weight,
+		volume
+		FROM brons.erp_ship_id
 	SET @end_time = GETDATE();
         PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
         PRINT '>> -------------';
@@ -68,32 +133,30 @@ BEGIN
 		case_id,
 		ship_id,
 		cust_id,
-		item_id,
+		prod_id,
 		chan_id,
 		open_date,
 		closed_date,
+		duration_minutes,
 		status,
-		deli_prob,
-		invoice_q,
-		c_m,
-		complaints
+		csat,
+		case_type
 		)
 	SELECT
 		REPLACE(case_id, '-', '_') AS case_id,
 		ship_id,
 		cust_id,
-		item_id,
+		prod_id,
 		chan_id,
 		open_date,
 		closed_date,
+		DATEDIFF(MINUTE, open_date, closed_date),
 		CASE WHEN UPPER(TRIM(status)) = 'c' THEN 'closed'
 			 WHEN UPPER(TRIM(status)) = 'o' THEN 'open'
 			 ELSE 'n/a'
 		END status,
-		deli_prob,
-		invoice_q,
-		c_m,
-		complaints
+		csat,
+		case_type
 		FROM brons.crm_cus_ser_iss
 	SET @end_time = GETDATE();
         PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
@@ -105,41 +168,43 @@ BEGIN
 		TRUNCATE TABLE silver.crm_channel;
 		PRINT '>> Infoga data i: silver.crm_channel';
 		INSERT INTO silver.crm_channel(
-		cha_id,
-		cha_nm
+		chan_id,
+		chan_nm
 		)
 	SELECT
-		cha_id,
-		cha_nm
+		chan_id,
+		chan_nm
 		FROM brons.crm_channel
 	 SET @end_time = GETDATE();
         PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
         PRINT '>> -------------';
 		
-		--Laddar silver.crm_cust_info
+		--Laddar silver.crm_con_per
 	SET @start_time = GETDATE();
-		PRINT '>> Trunkering av tabell: silver.crm_cust_info';
-		TRUNCATE TABLE silver.crm_cust_info;
-		PRINT '>> Infoga data i: silver.crm_cust_info';
+		PRINT '>> Trunkering av tabell: silver.crm_con_per';
+		TRUNCATE TABLE silver.crm_con_per;
+		PRINT '>> Infoga data i: silver.crm_con_per';
 
-		INSERT INTO silver.crm_cust_info(
+		INSERT INTO silver.crm_con_per(
+		cont_id,
 		cust_id,
 		comp_nm,
-		country,
-		segment,
-		sector,
-		status,
-		cre_dt
+		first_name,
+		last_name,
+		role,
+		email,
+		phone
 		)
 	SELECT
+		cont_id,
 		cust_id,
 		comp_nm,
-		country,
-		segment,
-		sector,
-		status,
-		cre_dt
-		FROM brons.crm_cust_info
+		first_name,
+		last_name,
+		role,
+		email,
+		phone
+		FROM brons.crm_con_per
 	SET @end_time = GETDATE();
         PRINT '>> Laddningslängd: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' sekunder';
         PRINT '>> -------------';
