@@ -78,6 +78,7 @@ IF OBJECT_ID ('brons.erp_ship_id' , 'U') IS NOT NULL
 	DROP TABLE brons.erp_ship_id;
 CREATE TABLE brons.erp_ship_id(
 	ship_id NVARCHAR (50),
+	case_id NVARCHAR (50),
 	cust_id INT,
 	prod_id NVARCHAR(50),
 	origin NVARCHAR(50),
