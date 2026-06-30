@@ -18,17 +18,37 @@ GO
 CREATE VIEW guld.dim_checkpoint_destination AS
   SELECT
   ship_id AS shipment_id,
-  cust_id AS customer_id,
   origin,
   destination,
   country,
-  item_id,
-  deli_sta AS delivery_status,
-  delivery_date
+  prod_id AS product_id,
+  d_status AS delivery_status,
+  d_date AS delivery_date
   FROM silver.erp_cp_dest
 GO
 
---Skapa dimension: guld.dim_customer_info
+--Skapa dimension: guld.dim_shipment_id
+
+IF OBJECT_ID('guld.dim_shipment_id', 'V') IS NOT NULL
+    DROP VIEW guld.dim_shipment_id;
+GO
+
+CREATE VIEW guld.dim_shipment_id AS
+  SELECT
+  case_id,
+  cust_id AS customer_id,
+  prod_id AS product_id,
+  origin,
+  destination,
+  country,
+  d_status AS delivery_status,
+  d_date AS delivery_date,
+  weight,
+  volume
+  FROM silver.erp_ship_id
+GO
+
+(((--Skapa dimension: guld.dim_customer_info
 
 IF OBJECT_ID('guld.dim_customer_info', 'V') IS NOT NULL
     DROP VIEW guld.dim_customer_info;
@@ -36,15 +56,18 @@ GO
 
 CREATE VIEW guld.dim_customer_info AS
   SELECT
+  case_id,
   cust_id AS customer_id,
-  comp_nm AS company_name,
+  prod_id AS product_id,
+  origin,
+  destination,
   country,
-  segment,
-  sector,
-  status,
-  cre_dt AS create_date
-  FROM silver.crm_cust_info
-GO
+  d_status AS delivery_status,
+  d_date AS delivery_date,
+  weight,
+  volume
+  FROM silver.erp_ship_id
+GO)))
 
 --Skapa dimension guld.dim_channel
 
@@ -54,9 +77,10 @@ GO
 
 CREATE VIEW guld.dim_channel AS
   SELECT
-  cha_id AS channel_id,
-  cha_nm AS channel_name
+  chan_id AS channel_id,
+  chan_nm AS channel_name
   FROM silver.crm_channel
+GO
 
 --Skapa fakta tabell: guld.fact_customer_serivce_issues
 
@@ -69,14 +93,13 @@ CREATE VIEW guld.fact_customer_serivce_issues AS
   case_id,
   ship_id AS shipment_id,
   cust_id AS customer_id,
-  item_id,
+  prod_id AS product_id,
   chan_id AS channel_id,
   open_date,
   closed_date,
+  duration_minutes,
   status,
-  deli_prob AS delivery_problems,
-  invoice_q AS invoice_questions,
-  c_m AS customs_matters,
-  complaints
+  csat,
+  case_type
   FROM silver.crm_cus_ser_iss
 GO
