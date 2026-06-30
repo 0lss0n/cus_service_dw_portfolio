@@ -44,6 +44,7 @@ CREATE TABLE silver.crm_cus_ser_iss(
 	chan_id NVARCHAR(50),
 	open_date DATETIME2,
 	closed_date DATETIME2,
+	duration_minutes INT,
 	status NVARCHAR(50),
 	csat NVARCHAR(50),
 	case_type NVARCHAR(50),
