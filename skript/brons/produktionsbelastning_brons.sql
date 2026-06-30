@@ -110,7 +110,7 @@ BEGIN
 
 	PRINT '>> Infoga data i: brons.erp_ship_id';
 	BULK INSERT brons.erp_ship_id
-	FROM 'C:\sql\crm\ship_id.csv'
+	FROM 'C:\sql\erp\ship_id.csv'
 	WITH(
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ';',
